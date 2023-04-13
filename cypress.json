@@ -1,0 +1,21 @@
+{
+  "baseUrl": "https://demoauthor.magnolia-cms.com/travel",
+  "env": {
+    "pageLoadTimeInGeneral": 3000,
+    "germalLanguageUrl": "/de",
+    "carrersUrl": "/about/careers.html"
+  },
+  "viewportWidth": 1500,
+  "viewportHeight": 800,
+  "testFiles": "**/*.{feature,features}",
+  "ignoreTestFiles": "*.js",
+  "videoCompression": false,
+  "video": true,
+  "videoUploadOnPasses": false,
+  "screenshotOnRunFailure": true,
+  "screenshotsFolder": "cypress/screenshots",
+  "trashAssetsBeforeRuns": true,
+  "defaultCommandTimeout": 16000,
+  "requestTimeout": 10000,
+  "slowTestThreshold": 15000
+}
